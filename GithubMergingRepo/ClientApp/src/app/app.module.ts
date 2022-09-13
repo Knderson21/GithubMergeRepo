@@ -28,6 +28,8 @@ import { ChungusComponent } from './chungus/chungus.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'chungus', component: ChungusComponent },
+      
     ])
   ],
   providers: [],
